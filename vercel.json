@@ -1,8 +1,9 @@
 {
   "builds": [
-    { "src": "responsive.html", "use": "@vercel/static" }
+    { "src": "indexhtml-css/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/", "dest": "/responsive.html" }
+    { "src": "/indexhtml-css/(.*)", "dest": "/day-1/$1" }
   ]
+
 }
