@@ -1,0 +1,588 @@
+@font-face{
+    font-family: "Orbition";
+    src: url('./Orbitron/Orbitron-VariableFont_wght.ttf') type ('truetype');
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "inter";
+    src: url('./Inter/Inter-VariableFont_opsz\,wght.ttf') type ('truetype');
+   font-weight: 400;
+}
+
+@font-face{
+    font-family: "poppins";
+    src: url('./Poppins/Poppins-Bold.ttf') type ('truetype');
+   font-weight: 700;
+}
+
+@font-face{
+    font-family: "Dancing-Script";
+    src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf') type ('truetype');
+   font-weight: 600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+     font-size: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+     overflow-x: hidden; 
+    
+}
+
+.container{
+  max-width: 1920px;
+  width: clamp(100%, 80%, 40%);
+  max-height: 2541px;
+}
+
+.nav-div{
+  width: 1488px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+       max-width: 1920px;
+  width: 100%;
+height: 69px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(90deg, #581C87 0%, #1E3A8A 50%, #312E81 100%);
+}
+
+.nav-h2{
+ text-shadow:
+    0 0 5px #22D3EE,
+    0 0 10px #22D3EE,
+    0 0 20px #22D3EE,
+    0 0 40px #22D3EE,
+    0 0 80px #22D3EE;
+ color: #22D3EE;
+font-weight: 800;
+font-family: "Orbition";
+font-size: 2.1rem;
+line-height: 36px;
+}
+
+.nav-a a{
+text-decoration: none;
+color: white;
+font-weight: 400;
+ font-size: 17px;
+line-height: 24px;
+font-family: "inter";
+}
+
+.nav-a{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.main-section1{
+ width: 100%;
+ min-height: clamp(800px, 400px, 200px);
+ background: linear-gradient(-22.585deg, #FF6B6B 0%, #4ECDC4 25%, #45B7D1 50%, #96CEB4 75%, #FFECD2 100%);
+ position: relative;
+}
+
+.position-1{
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    background: rgba(250, 204, 21, 30%);
+    width: 128px;
+height: 128px;
+border-radius: 100px;
+}
+
+.position-2 {
+    position: absolute;
+         width: 64px;
+         background: rgba(34, 211, 238, 50%);
+height: 64px;
+border-radius: 100px;
+  top: 400px;
+  left: 40px;
+}
+
+.position-3 {
+    bottom: 120px;
+    right: 130px;
+    position: absolute;
+    width: 96px;
+height: 96px;
+border-radius: 100px;
+background: rgba(244, 114, 182, 40%);
+}
+
+.main-section1, .main-text, .card-div, .card-1, .footer-div{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-project{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-text > :first-child{
+    text-align: center;
+}
+
+.main-text{
+    gap: 28px;
+}
+
+
+.main-text h2, .main-text span {
+font-weight: 800;
+font-style: Black;
+line-height: 96px;
+font-family: "Orbition";
+}
+
+.main-text h2{
+   font-size: 9.5rem;
+}
+
+.main-text span{
+    font-size: 10.6rem;
+}
+
+.main-text h2, .footer-div h2 {
+  color: rgba(103, 232, 249, 1);
+ text-shadow:
+    0 0 5px #22D3EE,
+    0 0 10px #22D3EE,
+    0 0 20px #22D3EE,
+    0 0 40px #22D3EE,
+     0 0 80px #22D3EE ; 
+  font-size: 11em;
+}
+
+.main-text span, .footer-div span {
+    color: rgba(249, 168, 212, 1);
+     text-shadow:
+    0 0 5px rgba(249, 168, 212, 1),
+    0 0 10px rgba(249, 168, 212, 1),
+    0 0 20px rgba(249, 168, 212, 1),
+    0 0 40px rgba(249, 168, 212, 1),
+    0 0 80px rgba(249, 168, 212, 1); 
+}
+
+.main-text p {
+    font-family: "Dancing Script";
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+color: white;
+}
+
+.main-text button {
+    border: none;
+    width: 231px;
+height: 60px;
+color: white;
+font-weight: 400;
+font-family: "inter";
+padding-top: 5px;
+font-size: 19px;
+border-radius: 100px;
+ background: linear-gradient(90deg, #EC4899 0%, #8B5CF6 100%);
+  box-shadow: 0 0 20px rgba(255, 92, 196, 0.7);
+}
+
+
+.card-div{
+    width: 100%;
+    background: linear-gradient(171.169deg, #E0E7FF 0%, #FAF5FF 50%, #FCE7F3 100%);;
+    min-height: clamp(575px, 375px, 200px);
+    gap: 59px;
+}
+
+.card{
+    width: 474px;
+height: 287px;
+border-radius: 24px;
+    padding-left: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.all-card{
+    display: flex;
+    gap: 33px;
+}
+
+.card-div h2{
+font-weight: 800;
+font-size: 7em;
+font-family: "Orbittion";
+line-height: 60px;
+background: linear-gradient(90deg, #9333EA 0%, #DB2777 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.card h3{
+font-weight: 700;
+font-family: "poppins";
+font-size: 3.4rem;
+line-height: 36px;
+}
+
+.card p{
+    font-family: "inter";
+font-weight: 400;
+font-size: 2.1rem;
+line-height: 29px;
+color: rgba(75, 85, 99, 1);
+}
+
+.blue{
+    border-left: 7px solid rgba(6, 182, 212, 1);
+    
+}
+
+.blue img{
+    margin-top: 23px;
+}
+
+.blue p {
+    margin-top: 20px;
+}
+
+.span span{
+    font-family: "Orbittion";
+    font-weight: 800;
+}
+
+.pinck{
+   border-left: 7px solid rgba(236, 72, 153, 1);
+}
+
+.pinck{
+    padding-top: 34px;
+}
+
+.pinck img{
+    margin-bottom: 18px;
+}
+
+.pinck h3{
+  margin-bottom: 15px;
+}
+
+.yellow{
+   border-left: 7px solid rgba(234, 179, 8, 1);
+}
+
+.yellow{
+    padding-top: 37px;
+}
+
+.yellow img{
+    margin-bottom: 15px;
+}
+
+.yellow h3{
+  margin-bottom: 15px;
+}
+
+.main-section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+      gap: 57px;
+     min-height: clamp(540px, 300px, 200px); 
+    background: linear-gradient(90deg, #581C87 0%, #1E3A8A 50%, #312E81 100%);
+}
+
+.img img{
+    width: 354px;
+    height: 256px;
+    background-color: #1E3A8A;
+    margin-bottom: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 16px;
+}
+
+.img{
+      display: flex;
+      gap: 24px;
+}
+
+.section-3-text{
+font-weight: 900;
+font-style: Black;
+font-size: 4.6em;
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #00aaff,
+    0 0 80px #00aaff,
+    0 0 90px #00aaff,
+    0 0 100px #00aaff,
+    0 0 150px #00aaff;
+  background: radial-gradient(circle at center, #273c9a, #1e2470);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #fff;
+}
+
+.main-section-4{
+ width: 100%;
+ min-height: clamp(340px, 200px, 160px); 
+}
+
+.card-project{
+ width: 100%;
+height: 340px;
+gap: 32px;
+background: linear-gradient(174.862deg, #FCE7F3 0%, #F3E8FF 50%, #E0E7FF 100%);
+}
+
+.card-1{
+font-weight: 900;
+font-size: 4.8rem;
+width: 348px;
+height: 180px;
+border-radius: 24px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ background-color: white;
+ margin-bottom: 8px;
+}
+
+
+.card-1 p{
+font-weight: 700;
+font-family: "poppins";
+font-size: 2.9rem;
+margin-bottom: 8px;
+margin-right: 6px;
+line-height: 32px;
+color: rgba(31, 41, 55, 1);
+}
+
+.footer-div{
+ width: 100%;
+height: 290px;
+gap: 32px;
+ background: linear-gradient(90deg, #111827 0%, #581C87 50%, #4C1D95 100%);
+}
+
+.footer-div h2{
+font-weight: 800;
+font-family: "Orbition";
+font-size: 4rem;
+line-height: 40px;
+}
+
+.footer-svg {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-div p{
+font-family: "inter";
+font-weight: 400;
+font-size: 2rem;
+line-height: 28px;
+color: white;
+}
+
+.blue-card{
+    color: rgba(6, 182, 212, 1);
+    border-top: 10px solid rgba(6, 182, 212, 1);
+}
+
+.pinck-card{
+    color: rgba(236, 72, 153, 1);
+    border-top: 10px solid rgba(236, 72, 153, 1);
+}
+
+.yellow-card{
+    color: rgba(234, 179, 8, 1);
+    border-top: 10px solid rgba(234, 179, 8, 1);
+}
+
+.green-card{
+    color: rgba(34, 197, 94, 1);
+    border-top: 10px solid rgba(34, 197, 94, 1);
+}
+
+
+@media (max-width: 1440px) {
+    .container{
+        width: 100%;
+        background-color: red;
+    }
+    nav{
+        width: 100%;
+    }
+   .nav-div{
+    width: 1232px;
+   }
+
+   .card{
+    width: 389px;
+height: 287px;
+   }
+
+   .img img{
+    width: 290px;
+height: 256px;
+   }
+   .card-1{
+    width: 284px;
+height: 180px;
+   }
+
+   .card-project {
+    margin-right: 50px;
+    
+   }
+
+   .nav-a a{
+    margin-right: 22px;
+   }
+   .nav-a {
+    gap: 13px;
+   }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+           height: 800px;
+        background-color: red;
+    }
+    nav{
+        width: 100%;
+    }
+   .nav-div{
+   width: 720px;
+   }
+
+   .card{
+     width: 218px;
+height: 440px
+   }
+
+
+   .img img{
+    width: 162px;
+height: 256px;
+   }
+
+   .card-1{
+    width: 156px;
+height: 332px;
+    padding-top: 10px;
+    justify-content: flex-start;
+   }
+
+   .card-project {
+    margin-right: 50px;
+    height: 492px;
+   }
+
+   .nav-a a{
+    margin-right: 22px;
+   }
+   .nav-a {
+    gap: 13px;
+   }
+   .card h3{
+     font-size: 3rem;
+   }
+   
+   .responsive-h3{
+    white-space: nowrap;     
+  overflow: hidden;         
+  text-overflow: ellipsis;
+   }
+
+   .card-div{
+height: 724px;
+   }
+
+   .span {
+    font-size: 5.5rem;
+    display: flex;
+   flex-direction: column;
+}
+  
+.main-section-3{
+    height: 540px;
+}
+
+ .card-1 p{
+    white-space: nowrap;
+ }
+
+ .footer-div{
+    height: 290px;
+ }
+}
+
+@media (max-width: 391px) {
+    .container{
+        width: 100%;
+        background-color: red;
+    }
+
+    .nav-h2{
+
+    }
+   
+     .nav-a{
+        display: none;
+     }
+
+   .card{
+    width: 389px;
+height: 287px;
+   }
+
+   .img img{
+    width: 290px;
+height: 256px;
+   }
+   .card-1{
+    width: 284px;
+height: 180px;
+   }
+
+   .card-project {
+    margin-right: 50px;
+    
+   }
+
+}
