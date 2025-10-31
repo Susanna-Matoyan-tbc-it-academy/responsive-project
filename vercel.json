@@ -3,7 +3,7 @@
     { "src": "indexhtml-css/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/indexhtml-css/(.*)", "dest": "/day-1/$1" }
+    { "src": "/indexhtml-css/(.*)", "dest": "/indexhtml-css/" }
   ]
 
 }
