@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "my-project",
+  "rootDirectory": "html-css",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
